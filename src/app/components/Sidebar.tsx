@@ -70,7 +70,7 @@ const Sidebar = () => {
     textDecoration: "none",
     justifyContent: isOpen ? "flex-start" : "center",
     fontFamily: "OutFit",
-    borderRadius: "10px",
+    borderRadius: "2px",
     margin: "5px 10px",
   });
 
@@ -80,7 +80,7 @@ const Sidebar = () => {
         style={{
           background: "#FFFFFF",
           color: "#B4B4CD",
-          borderRadius: "15px",
+          borderRadius: "5px",
           height: "100%",
           width: isOpen ? "150px" : "84px",
           boxShadow: "rgba(234, 232, 244, 0.95) 0px 0px 25px 0px",
@@ -89,7 +89,6 @@ const Sidebar = () => {
           justifyContent: "space-between",
           position: "relative",
           paddingTop: "40px",
-
           minHeight: "90vh",
         }}
       >
