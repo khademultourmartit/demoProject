@@ -18,6 +18,7 @@ import Employee from "../../../public/assests/menuicon/Employeeicon.svg";
 import Reports from "../../../public/assests/menuicon/Reportsicon.svg";
 import Settings from "../../../public/assests/menuicon/Settingsicon.svg";
 import LogOut from "../../../public/assests/menuicon/Logoutiutton.svg";
+import { Container } from "@mui/material";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(true);
@@ -74,7 +75,7 @@ const Sidebar = () => {
   });
 
   return (
-    <div style={{ display: "flex" }}>
+    <div>
       <div
         style={{
           background: "#FFFFFF",
@@ -88,6 +89,8 @@ const Sidebar = () => {
           justifyContent: "space-between",
           position: "relative",
           paddingTop: "40px",
+
+          minHeight: "90vh",
         }}
       >
         {/* Logo */}

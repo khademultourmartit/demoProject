@@ -1,4 +1,5 @@
 "use client";
+import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 import "./globals.css";
 
@@ -10,19 +11,19 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <Header />
         <div className="layout">
           <Sidebar />
           <main className="content">{children}</main>
         </div>
-
         <style jsx>{`
           .layout {
-            display: flex;   
+            display: flex;
           }
           .content {
             padding: 20px;
             flex-grow: 1;
-            min-height: 100vh;
+            // min-height: 100vh;
           }
         `}</style>
       </body>
