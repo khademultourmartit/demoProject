@@ -89,7 +89,7 @@ const Sidebar = () => {
           justifyContent: "space-between",
           position: "relative",
           paddingTop: "40px",
-          minHeight: "90vh",
+          minHeight: "85vh",
         }}
       >
         {/* Logo */}
