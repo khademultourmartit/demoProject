@@ -40,3 +40,13 @@ a {
     color-scheme: dark;
   }
 }
+
+/*  custom satyle here */
+
+.placeholderColor input::placeholder {
+  color: #b4b4cd;
+  opacity: 1;
+  font-size: 10px;
+  font-family: "Outfit";
+  font-weight: 400;
+}
