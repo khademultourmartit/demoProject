@@ -46,17 +46,6 @@ const Sidebar = () => {
       icon: MarketSales,
     },
     { path: "#", name: "Promotion", icon: Promotion },
-    // {
-    //   path: "/dashboard/company-bank-list-table",
-    //   name: "Accounts",
-    //   icon: Accounts,
-    // },
-    // { path: "#", name: "Transaction", icon: Transaction },
-    // { path: "#", name: "Journal", icon: Journal },
-    // { path: "#", name: "Employee", icon: Employee },
-    // { path: "/dashboard/reports", name: "Reports", icon: Reports },
-    // { path: "/dashboard/setting", name: "Settings", icon: Settings },
-    // { path: "/dashboard/traveller-list-table", name: "Others", icon: Settings },
   ];
 
   const linkStyle = (path: string) => ({
