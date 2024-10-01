@@ -36,10 +36,10 @@ const Sidebar = () => {
 
   const menuItem: MenuItem[] = [
     { path: "/dashboard", name: "Dashboard", icon: Dashboardicon },
+    { path: "/flight/flight-search", name: "Flight", icon: Customer },
     { path: "/user/profile", name: "Profile", icon: Bookings },
     { path: "/dashboard/vendorlisttable", name: "Vendor", icon: VendorIcon },
     { path: "/dashboard/agent-list", name: "Agent", icon: Agent },
-    { path: "/dashboard/customerlisttable", name: "Customer", icon: Customer },
     {
       path: "/dashboard/user-markup-commission-list",
       name: "Market",
