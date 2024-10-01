@@ -46,7 +46,7 @@ a {
 .placeholderColor input::placeholder {
   color: #b4b4cd;
   opacity: 1;
-  font-size: 10px;
+  font-size: 14px;
   font-family: "Outfit";
   font-weight: 400;
 }

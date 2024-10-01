@@ -12,7 +12,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Container>
+        <Container maxWidth="xl">
           <Header />
           <div className="layout">
             <Sidebar />

@@ -54,13 +54,13 @@ const Sidebar = () => {
     color: pathname === path ? "#FFFFFF" : "#B4B4CD",
     backgroundColor: pathname === path ? "#A56EB4" : "transparent",
     fontSize: "12px",
-    padding: "5px 10px",
+    padding: "8px 10px",
     gap: "10px",
     textDecoration: "none",
     justifyContent: isOpen ? "flex-start" : "center",
     fontFamily: "OutFit",
     borderRadius: "2px",
-    margin: "5px 10px",
+    margin: "10px 10px",
   });
 
   return (
@@ -70,18 +70,16 @@ const Sidebar = () => {
           background: "#FFFFFF",
           color: "#B4B4CD",
           borderRadius: "5px",
-          height: "100%",
-          width: isOpen ? "150px" : "84px",
+          width: isOpen ? "170px" : "84px",
           boxShadow: "rgba(234, 232, 244, 0.95) 0px 0px 25px 0px",
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-between",
           position: "relative",
           paddingTop: "40px",
-          minHeight: "85vh",
+          height: "100vh",
         }}
       >
-        {/* Logo */}
         <div
           style={{
             position: "absolute",
@@ -120,8 +118,8 @@ const Sidebar = () => {
                     <Image
                       src={item.icon}
                       alt={item.name}
-                      width={12}
-                      height={12}
+                      width={18}
+                      height={18}
                       style={{
                         filter:
                           pathname === item.path
@@ -131,7 +129,13 @@ const Sidebar = () => {
                     />
                   </div>
                   {isOpen && (
-                    <span style={{ fontFamily: "Outfit", fontWeight: 400 }}>
+                    <span
+                      style={{
+                        fontFamily: "Outfit",
+                        fontWeight: 400,
+                        fontSize: "16px",
+                      }}
+                    >
                       {item.name}
                     </span>
                   )}
